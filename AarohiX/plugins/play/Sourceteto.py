@@ -24,14 +24,13 @@ async def huhh(client: Client, message: Message):
 么 [𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝚁 𝙽𝙾𝚄𝚁](https://t.me/cr_eo)
 么 [𝙲𝚁 𝙽𝙾𝚄𝚁](https://t.me/nor_o)
 ╰──── • ◈ • ────╯
-⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 
-   😜سورس نور الحاكم😜   
-• My Official Channel 💚
-• I post here Source & New Updates 💖
-• My official account Dev¹ : @nor_o  🖤
-• My official account Dev² : @O_F_4 🤍
-• My official account Dev² : @KA_5N 🧐
-• My bot : https://t.me/cr_co_bot 💛
+⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼    
+⍟ My Official Channel
+⍟ I post here Source & New Updates
+⍟ My official account Dev¹ : @nor_o
+⍟ My official account Dev² : @O_F_4
+⍟ My official account Dev³ : @KA_5N 
+⍟ My bot : https://t.me/cr_co_bot 
 .""",
         reply_markup=InlineKeyboardMarkup(
             [
