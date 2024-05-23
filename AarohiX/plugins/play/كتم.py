@@ -1,9 +1,10 @@
-from pyrogram import Client, filters
-from pyrogram.types import Message
-import requests 
-from AarohiX import app
+#"""  ايقاف"""
+"""from pyrogram import Client, filters"""
+"""from"" pyrogram.types import Message"""
+"""import requests"""
+"""from AarohiX import app """
 
-muted = []
+""muted = []"""
 @app.on_message(filters.command("كتم", "") & filters.group)
 async def ktm(_: Client, message: Message):
     if message.reply_to_message:
@@ -97,14 +98,14 @@ async def untard(_: Client, message: Message):
             ban.remove(message.reply_to_message.from_user.id)
             await message.reply_text(f"تم الغاء حظر العضو\n│ \n : {message.reply_to_message.from_user.mention}\n\n بنجاح ")
 
-            return
+          """return"""
         elif member["result"]["status"] == "creator":
             if message.reply_to_message.from_user.id not in ban: return await message.reply("- هذا المستخدم غير محظور!")
             ban.remove(message.reply_to_message.from_user.id)
             await message.reply_text(f"تم الغاء  حظر\n│ \n : {message.reply_to_message.from_user.mention}\n\n بنجاح ")
 
-            return
-        else: await message.reply("- يجب ان تكون ادمن على الاقل لإستخدام هذا الامر.", reply_to_message_id=message.message_id)
+           """ return"""
+       """ else: await message.reply("- يجب ان تكون ادمن على الاقل لإستخدام هذا الامر.", reply_to_message_id=message.message_id)"""
 
 
 
